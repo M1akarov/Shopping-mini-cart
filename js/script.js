@@ -13,8 +13,8 @@ window.addEventListener('DOMContentLoaded', function() {
       field.classList.add('cart-field');
       closeBtn.classList.add('close');
 
-      heading.textContent = "В нашей корзине:";
-      closeBtn.textContent = "Закрыть";
+      heading.textContent = "In our cart:";
+      closeBtn.textContent = "Close";
 
       document.body.appendChild(cart);
       cart.appendChild(heading);
